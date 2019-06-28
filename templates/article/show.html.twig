@@ -2,6 +2,7 @@
 {% block title %}Article Comments{% endblock %}
 {% block body %}
 
+    {{ dump() }}
     <h1>{{ title }}</h1>
     <div>
         <p>
@@ -12,6 +13,7 @@
             pancetta
             pork loin hamburger pork.
         </p>
+
         <p>
             Kielbasa pork belly meatball cupim burgdoggen chuck turkey buffalo ground round leberkas cow shank short
             loin
@@ -40,4 +42,5 @@
         {% endfor %}
     </ul>
 
+    <img src="{{ asset("images/andre.jpg") }}" alt="Symfony!"/>
 {% endblock %}
